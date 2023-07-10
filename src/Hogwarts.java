@@ -30,7 +30,7 @@ public abstract class Hogwarts {
 
     @Override
     public String toString() {
-        return  name + " сила магии : " + powerOfMagic + " расстояние трансгрессии : "  + transgression ;
+        return  name + "/ сила магии : " + powerOfMagic + "/ расстояние трансгрессии : "  + transgression ;
     }
     public void compareWith(Hogwarts student) {
         int student1power = this.powerOfMagic + this.transgression;
@@ -40,7 +40,7 @@ public abstract class Hogwarts {
         } else if (student1power<student2power) {
             System.out.println(student.getName() + " обладает большей мощностью магии, чем " + this.getName());
         } else {
-            System.out.println("Эти студенты Хогвартса - равны по силе магии!");
+            System.out.println(" Эти студенты Хогвартса - равны по силе магии!");
         }
     }
 }

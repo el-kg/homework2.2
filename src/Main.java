@@ -25,5 +25,10 @@ public class Main {
                 3);
 
 
+        System.out.println(monegue);
+        smith.compareWith(finch);
+        belby.compareWith(greyndger);
+
+
     }
 }

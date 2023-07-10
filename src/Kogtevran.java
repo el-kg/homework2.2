@@ -48,8 +48,8 @@ public class Kogtevran extends Hogwarts {
 
     @Override
     public String toString() {
-        return "Когтевран " + super.toString() + " ум : " + smart + " мудрость : " + wise + " остроумие : " + witty +
-                " творчество : " + creativity;
+        return "Когтевран /" + super.toString() + "/ ум : " + smart + "/ мудрость : " + wise + "/ остроумие : " + witty +
+                "/ творчество : " + creativity;
     }
 
     public void compareWith(Kogtevran student) {
@@ -60,7 +60,7 @@ public class Kogtevran extends Hogwarts {
         } else if (student1power < student2power) {
             System.out.println(student.getName() + "- лучший Когтевранец, чем " + this.getName());
         } else {
-            System.out.println("Эти студенты Когтеврана - равны по силе!");
+            System.out.println(" Эти студенты Когтеврана - равны по силе!");
         }
     }
 }

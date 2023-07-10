@@ -36,8 +36,8 @@ public class Puffenduy extends Hogwarts{
 
     @Override
     public String toString() {
-        return "Пуффендуй " + super.toString()+ "трудолюбие : " + diligence + "верность : " + loyalty +
-                "честность : " + honesty;
+        return "Пуффендуй /" + super.toString()+ "/ трудолюбие : " + diligence + "/ верность : " + loyalty +
+                "/ честность : " + honesty;
     }
     public void compareWith(Puffenduy student) {
         int student1power = this.diligence + this.loyalty + this.honesty;
@@ -47,7 +47,7 @@ public class Puffenduy extends Hogwarts{
         } else if (student1power<student2power) {
             System.out.println(student.getName() + "- лучший Пуффендуец, чем " + this.getName());
         } else {
-            System.out.println("Эти студенты Пуффендуя - равны по силе!");
+            System.out.println(" Эти студенты Пуффендуя - равны по силе!");
         }
     }
 }

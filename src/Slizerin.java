@@ -57,8 +57,8 @@ public class Slizerin extends Hogwarts {
 
     @Override
     public String toString() {
-        return "Слизерин " + super.toString() + " хитрость : " + cunning + " решительность : " + determination +
-                " амбициозность : " + ambition + " находчивость : " + resourcefulness + " жажда власти : " + lustForPower;
+        return "Слизерин /" + super.toString() + "/ хитрость : " + cunning + "/ решительность : " + determination +
+                "/ амбициозность : " + ambition + "/ находчивость : " + resourcefulness + "/ жажда власти : " + lustForPower;
     }
 
     public void compareWith(Slizerin student) {
@@ -70,7 +70,7 @@ public class Slizerin extends Hogwarts {
         } else if (student1power < student2power) {
             System.out.println(student.getName() + "- лучший Слизеринец, чем " + this.getName());
         } else {
-            System.out.println("Эти студенты Слизерина - равны по силе!");
+            System.out.println(" Эти студенты Слизерина - равны по силе!");
         }
     }
 }
