@@ -36,8 +36,8 @@ public class Griffindor extends Hogwarts {
 
     @Override
     public String toString() {
-        return "Гриффиндор " + super.toString() + " благородство : " + nobility + " честь : " + honor
-                + " храбрость : " + courage;
+        return "Гриффиндор /" + super.toString() + "/ благородство : " + nobility + "/ честь : " + honor
+                + "/ храбрость : " + courage;
     }
 
     public void compareWith(Griffindor student) {
@@ -45,10 +45,10 @@ public class Griffindor extends Hogwarts {
         int student2power = student.nobility + student.honor + student.courage;
         if (student1power > student2power) {
             System.out.println(this.getName() + "- лучший Гриффиндорец, чем " + student.getName());
-        } else if (student1power<student2power) {
+        } else if (student1power < student2power) {
             System.out.println(student.getName() + "- лучший Гриффиндорец, чем " + this.getName());
         } else {
-            System.out.println("Эти студенты Гриффиндора - равны по силе!");
+            System.out.println(" Эти студенты Гриффиндора - равны по силе!");
         }
     }
 }
