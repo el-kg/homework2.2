@@ -4,8 +4,7 @@ public class Kogtevran extends Hogwarts {
     private int witty;
     private int creativity;
 
-    public Kogtevran(String name, int powerOfMagic, int transgression, int smart, int wise, int witty,
-                     int creativity) {
+    public Kogtevran(String name, int powerOfMagic, int transgression, int smart, int wise, int witty, int creativity) {
         super(name, powerOfMagic, transgression);
         this.smart = smart;
         this.wise = wise;
@@ -48,8 +47,7 @@ public class Kogtevran extends Hogwarts {
 
     @Override
     public String toString() {
-        return "Когтевран /" + super.toString() + "/ ум : " + smart + "/ мудрость : " + wise + "/ остроумие : " + witty +
-                "/ творчество : " + creativity;
+        return "Когтевран /" + super.toString() + "/ ум : " + smart + "/ мудрость : " + wise + "/ остроумие : " + witty + "/ творчество : " + creativity;
     }
 
     public void compareWith(Kogtevran student) {

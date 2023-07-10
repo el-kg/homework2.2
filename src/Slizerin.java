@@ -5,8 +5,7 @@ public class Slizerin extends Hogwarts {
     private int resourcefulness;
     private int lustForPower;
 
-    public Slizerin(String name, int powerOfMagic, int transgression, int cunning, int determination,
-                    int ambition, int resourcefulness, int lustForPower) {
+    public Slizerin(String name, int powerOfMagic, int transgression, int cunning, int determination, int ambition, int resourcefulness, int lustForPower) {
         super(name, powerOfMagic, transgression);
         this.cunning = cunning;
         this.determination = determination;
@@ -57,14 +56,12 @@ public class Slizerin extends Hogwarts {
 
     @Override
     public String toString() {
-        return "Слизерин /" + super.toString() + "/ хитрость : " + cunning + "/ решительность : " + determination +
-                "/ амбициозность : " + ambition + "/ находчивость : " + resourcefulness + "/ жажда власти : " + lustForPower;
+        return "Слизерин /" + super.toString() + "/ хитрость : " + cunning + "/ решительность : " + determination + "/ амбициозность : " + ambition + "/ находчивость : " + resourcefulness + "/ жажда власти : " + lustForPower;
     }
 
     public void compareWith(Slizerin student) {
         int student1power = this.cunning + this.determination + this.ambition + this.resourcefulness + this.lustForPower;
-        int student2power = student.cunning + student.determination + student.ambition + student.resourcefulness
-                + student.lustForPower;
+        int student2power = student.cunning + student.determination + student.ambition + student.resourcefulness + student.lustForPower;
         if (student1power > student2power) {
             System.out.println(this.getName() + "- лучший Слизеринец, чем " + student.getName());
         } else if (student1power < student2power) {
